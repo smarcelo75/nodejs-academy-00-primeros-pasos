@@ -4,7 +4,7 @@ const multiplicacion = (num1, num2) => num1 * num2;
 const division = (num1, num2) => {
     let resultado;
     if (num2 === 0) {
-        resultado = 'Error la dividir por cero!';
+        resultado = 'Error al dividir por cero!';
     } else {
         resultado = num1 / num2;
     }
