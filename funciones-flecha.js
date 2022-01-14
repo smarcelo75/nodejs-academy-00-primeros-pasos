@@ -11,7 +11,10 @@ const division = (num1, num2) => {
     return resultado;
 };
 
-console.log(suma(1, 20));
-console.log(resta(1, 20));
-console.log(multiplicacion(2, 20));
-console.log(division(20, 2));
+
+console.log('Nodejs Academy - Tarea 1');
+console.log('Operaciones Matemáticas');
+console.log(`Suma: ${suma(1, 20)}`);
+console.log(`resta: ${resta(1, 20)}`);
+console.log(`multiplicación: ${multiplicacion(2, 20)}`);
+console.log(`división: ${division(20, 2)}`);
